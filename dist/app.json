@@ -9,5 +9,6 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "mpvue demo",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

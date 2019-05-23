@@ -1,6 +1,6 @@
 @import "/static/css/vendor.wxss";
 
-.userinfo.data-v-161afc18 {
+.userinfo.data-v-5d3bdc08 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,19 +12,19 @@
   -ms-flex-align: center;
   align-items: center;
 }
-.userinfo-avatar.data-v-161afc18 {
+.userinfo-avatar.data-v-5d3bdc08 {
   width: 17.06666667vw;
   height: 17.06666667vw;
   margin: 2.66666667vw;
   border-radius: 50%;
 }
-.userinfo-nickname.data-v-161afc18 {
+.userinfo-nickname.data-v-5d3bdc08 {
   color: #aaa;
 }
-.usermotto.data-v-161afc18 {
+.usermotto.data-v-5d3bdc08 {
   margin-top: 300rpx;
 }
-.form-control.data-v-161afc18 {
+.form-control.data-v-5d3bdc08 {
   display: block;
   padding: 0 24rpx;
   margin-bottom: 10rpx;
@@ -40,18 +40,18 @@
   -webkit-appearance: none;
   outline: none;
 }
-.counter.data-v-161afc18 {
+.counter.data-v-5d3bdc08 {
   display: inline-block;
   margin: 20rpx auto;
   padding: 10rpx 20rpx;
   color: blue;
   border: 2rpx solid blue;
 }
-.container .girl.data-v-161afc18 {
+.container .girl.data-v-5d3bdc08 {
   width: 550rpx;
   height: 800rpx;
 }
-.container .logo.data-v-161afc18 {
+.container .logo.data-v-5d3bdc08 {
   width: 400rpx;
   height: 400rpx;
 }

@@ -1,0 +1,14 @@
+<import src="card$6afd378b" />
+<template name="index$5f3ed5ac">
+  <view class="_div data-v-5d3bdc08 container">
+    <image class="_img data-v-5d3bdc08 girl" src="{{imgSrc +'static/img/girl.png'}}" alt></image>
+    <image class="_img data-v-5d3bdc08 logo" src="/copy-asset/assets/logo.png" alt></image>
+    <template data="{{...$root[$kk+'0'], $root}}" is="card$6afd378b"></template>
+    <form class="_form data-v-5d3bdc08 form-container">
+      <input type="text" class="_input data-v-5d3bdc08 form-control" value="{{motto}}" bindinput="handleProxy" placeholder="v-model" data-eventid="{{'0'}}" data-comkey="{{$k}}" />
+      <input type="text" class="_input data-v-5d3bdc08 form-control" value="{{motto}}" bindblur="handleProxy" placeholder="v-model.lazy" data-eventid="{{'1'}}" data-comkey="{{$k}}" />
+    </form>
+    <view bindtap="handleProxy" class="_a data-v-5d3bdc08 counter" data-eventid="{{'2'}}" data-comkey="{{$k}}">去往Vuex示例页面</view>
+    <view bindtap="handleProxy" class="_a data-v-5d3bdc08 counter" data-eventid="{{'3'}}" data-comkey="{{$k}}">去往logs页面</view>
+  </view>
+</template>
