@@ -1,4 +1,4 @@
-# 安装依赖（注意查看package.json里面模块的安装版本号）
+# 安装依赖
 npm install
 
 # 小程序运行
@@ -19,134 +19,6 @@ npm run buildH5
 >github源码 => https://github.com/Aimee1608/mpvuedemo
 
 
-## 目录结构
-├── README.md
-├── build                       小程序运行打包配置文件
-│   ├── build.js
-│   ├── check-versions.js
-│   ├── dev-client.js
-│   ├── dev-server.js
-│   ├── utils.js
-│   ├── vue-loader.conf.js
-│   ├── webpack.base.conf.js
-│   ├── webpack.dev.conf.js
-│   └── webpack.prod.conf.js
-├── buildH5                    H5运行打包配置文件
-│   ├── build.js
-│   ├── check-versions.js
-│   ├── dev-client.js
-│   ├── utils.js
-│   ├── vue-loader.conf.js
-│   ├── webpack.baseH5.conf.js
-│   ├── webpack.devH5.conf.js
-│   └── webpack.prodH5.conf.js
-├── config                   小程序运行打包配置文件
-│   ├── dev.env.js
-│   ├── index.js
-│   └── prod.env.js
-├── configH5                H5运行打包配置文件
-│   ├── dev.env.js
-│   ├── index.js
-│   └── prod.env.js
-├── dist                    小程序打包生成的文件目录
-│   ├── app.js
-│   ├── app.json
-│   ├── app.wxss
-│   ├── components
-│   │   ├── card$79c1b934.wxml
-│   │   ├── counter$6c3d87bf.wxml
-│   │   ├── index$622cddd6.wxml
-│   │   ├── logs$31942962.wxml
-│   │   └── slots.wxml
-│   ├── copy-asset
-│   │   └── assets
-│   │       └── logo.png
-│   ├── pages
-│   │   ├── counter
-│   │   │   ├── main.js
-│   │   │   ├── main.wxml
-│   │   │   └── main.wxss
-│   │   ├── index
-│   │   │   ├── main.js
-│   │   │   ├── main.wxml
-│   │   │   └── main.wxss
-│   │   └── logs
-│   │       ├── main.js
-│   │       ├── main.json
-│   │       ├── main.wxml
-│   │       └── main.wxss
-│   └── static
-│       ├── css
-│       │   ├── app.wxss
-│       │   ├── pages
-│       │   │   ├── counter
-│       │   │   │   └── main.wxss
-│       │   │   ├── index
-│       │   │   │   └── main.wxss
-│       │   │   └── logs
-│       │   │       └── main.wxss
-│       │   └── vendor.wxss
-│       ├── img
-│       │   └── girl.png
-│       └── js
-│           ├── app.js
-│           ├── manifest.js
-│           ├── pages
-│           │   ├── counter
-│           │   │   └── main.js
-│           │   ├── index
-│           │   │   └── main.js
-│           │   └── logs
-│           │       └── main.js
-│           └── vendor.js
-├── distH5                          H5打包生成的文件目录
-│   ├── index.html
-│   └── static
-│       ├── css
-│       │   └── app.css
-│       ├── img
-│       │   ├── girl.png
-│       │   └── logo.png
-│       └── js
-│           ├── app.js
-│           ├── manifest.js
-│           └── vendor.js
-├── index.html                     入口index.html 页面
-├── package-lock.json
-├── package.json                   安装配置文件
-├── project.config.json
-├── src
-│   ├── App.vue                     小程序入口vue
-│   ├── AppH5.vue                   H5入口vue
-│   ├── api                         小程序和H5分别封装的方法
-│   │   ├── httpService.js
-│   │   └── wxService.js
-│   ├── assets                     静态资源文件
-│   │   └── logo.png
-│   ├── components                  组件
-│   │   └── card.vue
-│   ├── main.js                     小程序入口js
-│   ├── mainH5.js                   H5入口js
-│   ├── pages                       页面内容
-│   │   ├── counter
-│   │   │   ├── index.vue
-│   │   │   └── main.js
-│   │   ├── index
-│   │   │   ├── index.vue
-│   │   │   └── main.js
-│   │   └── logs
-│   │       ├── index.vue
-│   │       └── main.js
-│   ├── router                      H5路由
-│   │   └── index.js
-│   ├── store                       vuex存储
-│   │   └── index.js
-│   └── utils                       js封装方法
-│       └── index.js
-└── static                          静态资源文件
-    └── img
-        └── girl.png
-```
 
 ## 简易说明
 ### 路由跳转
@@ -249,7 +121,6 @@ Vue.mixin({
       }
   },
   created() {
-      // console.log('wx')
       this.service = wxService
   }
 })
